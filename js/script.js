@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-const is_html = '.html';
+const is_html = '';
 
 const links_to_pages = [
-    `<a href="index${is_html}">ETUSIVU</a>`,
+    `<a href="${is_html!='' ? 'index.html' : ''}">ETUSIVU</a>`,
     `<a href="galleria${is_html}">GALLERIA</a>`,
     `<a href="tarinat${is_html}">TARINAT</a>`,
     `<a href="sarjakuvat${is_html}">SARJAKUVAT</a>`,
