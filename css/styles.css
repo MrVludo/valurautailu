@@ -17,6 +17,18 @@ header {
     position: relative;
 }
 
+.header-otsikko {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: inherit; /* Используем цвет текста, как у родителя */
+    cursor: default; /* Курсор не меняется на "руку" */
+}
+.header-otsikko:hover,
+.header-otsikko:focus {
+    text-decoration: none; /* Убираем подчеркивание при наведении */
+    color: inherit; /* Цвет текста остается прежним */
+    cursor: default; /* Курсор остается прежним */
+}
+
 main {
     flex: 1;
     padding: 15px;
